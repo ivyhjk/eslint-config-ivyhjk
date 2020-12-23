@@ -1,0 +1,19 @@
+{
+  "name": "@ivyhjk/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "ESLint typescript configurations",
+  "author": "ivyhjk <elvis.munoz.f@gmail.com>",
+  "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivyhjk/eslint-config-ivyhjk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivyhjk/eslint-config-ivyhjk/issues"
+  }
+}
