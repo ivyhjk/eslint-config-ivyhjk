@@ -1,6 +1,6 @@
 {
   "name": "@ivyhjk/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1-next.0",
   "description": "ESLint typescript configurations",
   "author": "ivyhjk <elvis.munoz.f@gmail.com>",
   "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk/tree/master/packages/typescript#readme",
@@ -19,10 +19,10 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
-    "eslint-plugin-import-length": "^1.0.3",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint": "^7.16.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import-length": "^1.0.3",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "typescript": "^4.1.3"
   }
 }
