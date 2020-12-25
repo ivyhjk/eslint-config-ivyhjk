@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ESLint typescript configurations",
   "author": "ivyhjk <elvis.munoz.f@gmail.com>",
-  "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk#readme",
+  "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk/tree/master/packages/typescript#readme",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
