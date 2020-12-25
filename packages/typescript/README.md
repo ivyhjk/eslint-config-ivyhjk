@@ -4,6 +4,14 @@ ESlint typescript configurations
 
 ## Install
 
+**With [install-peerdeps](https://github.com/nathanhleung/install-peerdeps)**:
+
+```sh
+npx install-peerdeps --dev @ivyhjk/eslint-config-typescript
+```
+
+**The classic way**:
+
 peer dependencies:
 
 ```sh
