@@ -15,5 +15,14 @@
   },
   "bugs": {
     "url": "https://github.com/ivyhjk/eslint-config-ivyhjk/issues"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint-plugin-import-length": "^1.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint": "^7.16.0",
+    "typescript": "^4.1.3"
   }
 }
