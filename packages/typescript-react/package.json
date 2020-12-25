@@ -1,0 +1,19 @@
+{
+  "name": "@ivyhjk/eslint-config-typescript-react",
+  "version": "0.0.0",
+  "description": "ESLint react typescript based configurations",
+  "author": "ivyhjk <elvis.munoz.f@gmail.com>",
+  "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk/tree/master/packages/typescript-react#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivyhjk/eslint-config-ivyhjk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivyhjk/eslint-config-ivyhjk/issues"
+  },
+  "dependencies": {
+    "@ivyhjk/eslint-config-typescript": "file:../typescript"
+  }
+}
