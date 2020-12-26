@@ -10,5 +10,14 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'semistandard'
-  ]
+  ],
+  rules: {
+    'import-length/import-length': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-anonymous-default-export': 'error',
+    'import/no-useless-path-segments': 'error',
+    'import/order': 'error',
+    'react/prop-types': 'off',
+    'simple-import-sort/imports': 'error'
+  }
 };
