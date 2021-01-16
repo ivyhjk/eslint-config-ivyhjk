@@ -19,5 +19,14 @@ module.exports = {
     'import/order': 'error',
     'react/prop-types': 'off',
     'simple-import-sort/imports': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      parser: 'typescript-eslint-parser',
+      rules: {
+        'no-undef': 'off'
+      }
+    }
+  ]
 };
