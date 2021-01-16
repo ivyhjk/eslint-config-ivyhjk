@@ -1,6 +1,6 @@
 {
   "name": "@ivyhjk/eslint-config-typescript",
-  "version": "0.0.1-next.1",
+  "version": "0.0.1-next.2",
   "description": "ESLint typescript configurations",
   "author": "ivyhjk <elvis.munoz.f@gmail.com>",
   "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk/tree/master/packages/typescript#readme",
