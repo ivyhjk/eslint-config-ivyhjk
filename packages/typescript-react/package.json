@@ -1,6 +1,6 @@
 {
   "name": "@ivyhjk/eslint-config-typescript-react",
-  "version": "0.0.1-next.3",
+  "version": "0.0.1-next.4",
   "description": "ESLint react typescript based configurations",
   "author": "ivyhjk <elvis.munoz.f@gmail.com>",
   "homepage": "https://github.com/ivyhjk/eslint-config-ivyhjk/tree/master/packages/typescript-react#readme",
