@@ -8,8 +8,8 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'semistandard'
+    'semistandard',
+    'plugin:@typescript-eslint/recommended'
   ],
   rules: {
     'import-length/import-length': 'error',
