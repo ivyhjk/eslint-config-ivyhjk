@@ -1,0 +1,12 @@
+{
+  "name": "@ivyhjk/prettier-config",
+  "description": "Prettier configurations",
+  "author": "Elvis Munoz <elvis.munoz.f@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "prettier": "^3.5.2",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2"
+  }
+}

@@ -1,11 +1,15 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-
-const path = require('path');
+const path = require('node:path');
 const { ESLint } = require('eslint');
 
 describe('typescript', () => {
   const linter = new ESLint({
-    overrideConfigFile: require.resolve('../.eslintrc')
+    overrideConfigFile: path.resolve(__dirname, '../index.js'),
+    overrideConfig: {
+      rules: {
+        'no-undef': 'off',
+        '@typescript-eslint/no-require-imports': 'off'
+      }
+    }
   });
 
   const repoFiles = [
@@ -13,7 +17,7 @@ describe('typescript', () => {
     path.resolve(__dirname, './index.spec.js')
   ];
 
-  it('expect no errors were found', async () => {
+  test('expect no errors were found', async () => {
     const results = await linter.lintFiles(repoFiles);
 
     expect(results.length).toBeGreaterThan(1);

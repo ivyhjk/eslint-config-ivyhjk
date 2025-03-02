@@ -1,9 +1,10 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    target-branch: master
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     reviewers:
       - ivyhjk
     assignees:

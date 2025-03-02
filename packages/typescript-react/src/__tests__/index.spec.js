@@ -1,11 +1,15 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-
 const path = require('path');
 const { ESLint } = require('eslint');
 
 describe('typescript-react', () => {
   const linter = new ESLint({
-    overrideConfigFile: require.resolve('../.eslintrc')
+    overrideConfigFile: path.resolve(__dirname, '../index.js'),
+    overrideConfig: {
+      rules: {
+        'no-undef': 'off',
+        '@typescript-eslint/no-require-imports': 'off'
+      }
+    }
   });
 
   const repoFiles = [
